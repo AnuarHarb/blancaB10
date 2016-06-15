@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+      </fb:login-button>
+        <div id="status">
+        </div>
+        <img src="http://gazettereview.com/wp-content/uploads/2016/03/facebook-avatar.jpg" width="200px" id="foto">
+        <br><button type="button" class="btn btn-default margen" onclick=Publicar();>Publicar</button><br>
+        <button onclick="Foto();" type="button" class="btn btn-default margen">Obtener fotografía</button>
+      </div>
+    </nav>
+    <h2 id="email">Email</h2>
+    <button onclick="mail();">pum</button>
+    <h1>Piedra Papel o Tijera</h1>
+  </header>
+  <main>
+    <P>Elige tu jugada:</P>
+    <p><span>Escribe tu elección tal cual esta en las opciones</span></p>
+    <ul>
+      <li>Piedra</li>
+      <li>Papel</li>
+      <li>Tijeras</li>
+    </ul>
+    <div>
+      <input id="jugador" type="text">
+      <button type="button" name="button" onclick="chinchampu()">Juega</button>
+    </div>
+    <input type="text" id="publicar">
+    <input type="text" id="publicarFoto">
+    <button onclick="publicar()">Publica</button>
+    <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+  </main>
+
+
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

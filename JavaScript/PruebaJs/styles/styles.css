@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header h1 {
+  text-align: center;
+}
+nav {
+}
+main{
+  text-align: center;
+}
+.fb-like {
+  display: block;
+}

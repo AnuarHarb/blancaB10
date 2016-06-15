@@ -1,0 +1,18 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+section article {
+  border:1px solid black;
+  height: 200px;
+}
+@media screen and (max-width: 480px) { /*menor que */
+    .red {
+        background-color: red;
+    }
+}
+@media screen and (min-width: 481px) { /*mayor que */
+  .red {
+    background-color:blue;
+  }
+}
